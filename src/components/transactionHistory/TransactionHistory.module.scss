@@ -1,0 +1,29 @@
+table {
+  color: #fff;
+  font-family: sans-serif;
+  
+  box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+th {
+  background-color: rgb(48, 199, 236);
+  padding: 30px 160px;
+
+  text-transform: uppercase;
+}
+
+td {
+  padding: 30px 160px;
+  color: gray;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+tr {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
