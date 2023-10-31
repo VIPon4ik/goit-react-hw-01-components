@@ -1,11 +1,11 @@
-import user from './Profile/user.json';
-import data from './Statistics/data.json';
-import friends from './FriendList/friends.json';
-import transactions from './TransactionHistory/transactions.json';
-import { Profile } from './Profile/Profile.jsx';
-import { Statistics } from './Statistics/Statistics';
-import { FriendList } from './FriendList/FriendList';
-import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import user from './profile/user.json';
+import data from './statistics/data.json';
+import friends from './friendList/friends.json';
+import transactions from './transactionHistory/transactions.json';
+import { Profile } from './profile/Profile.jsx';
+import { Statistics } from './statistics/Statistics';
+import { FriendList } from './friendList/FriendList';
+import { TransactionHistory } from './transactionHistory/TransactionHistory';
 
 const {
   username,
