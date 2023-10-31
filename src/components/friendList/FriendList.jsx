@@ -9,7 +9,7 @@ export const FriendList = ({ friends }) => {
           <li className={styles.item} key={id}>
             <span
               className={styles.status}
-              style={{ backgroundColor: `${isOnline ? 'red' : 'green'}` }}
+              style={{ backgroundColor: `${isOnline ? 'green' : 'red'}` }}
             ></span>
             <img className={styles.avatar} src={avatar} alt="User avatar" />
             <p className={styles.name}>{name}</p>
